@@ -1,0 +1,10 @@
+http://themesitem.com/demos/html/bizzency/bizzency/index.html
+
+
+navbar background color -> #0f2f44
+
+navbar text  background -> #fff9e6
+
+navbar text color -> #ffc712
+
+navbar icon background -> #0f2f44

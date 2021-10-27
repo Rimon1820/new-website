@@ -1,0 +1,735 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.title h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+
+.title h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: #0f2f44;
+    margin-top: -6px;
+
+}
+
+/*=======================================
+        header part start
+=========================================*/
+header {
+    background: #0f2f44;
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header .header_left_text {
+    width: 50%;
+    float: left;
+}
+
+
+header .header_right_text {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+/*=======================================
+        header part end
+=========================================*/
+
+/*=======================================
+        navbar part start
+=========================================*/
+nav .logo {
+    width: 15%;
+    float: left;
+    margin-top: 25px;
+}
+
+nav .nav_item {
+    width: 75%;
+    float: left;
+}
+
+nav .nav_item ul {
+    text-align: center;
+}
+
+nav .nav_item ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav .nav_item ul li a {
+    display: inline-block;
+    color: #000;
+    background: transparent;
+    padding: 30px 10px;
+    transition: .4s;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav .nav_item ul li a:hover {
+    background: #fff9e6;
+    color: #ffc712;
+}
+
+nav .icon {
+    width: 10%;
+    float: left;
+    margin-top: 25px;
+}
+
+nav .icon i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #999999;
+    margin-right: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+nav .icon i:hover {
+    background: #0f2f44;
+    border-color: #0f2f44;
+    color: #ffc712;
+}
+
+
+
+/*=======================================
+        navbar part end
+=========================================*/
+
+/*=======================================
+        banner part start
+=========================================*/
+#banner-part {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+#banner-part h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+
+#banner-part h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: #0f2f44;
+    text-transform: uppercase;
+    margin-top: -30px;
+}
+
+#banner-part h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #aab0d8;
+    letter-spacing: 15px;
+}
+
+#banner-part p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 514px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#banner-part a {
+    display: inline-block;
+    background: #8484bf;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid #8484bf;
+    transition: .4s;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#banner-part a:hover {
+    background: #fff;
+    color: #8484bf;
+
+}
+
+#banner-part i {
+    width: 47px;
+    height: 47px;
+    background: #fff;
+    text-align: center;
+    line-height: 47px;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: #8484bf;
+    transition: .4s;
+
+}
+
+#banner-part i:hover {
+    color: #fff;
+    background: #8484bf;
+}
+
+/*=======================================
+        banner part end
+=========================================*/
+
+/*=======================================
+        about part start
+=========================================*/
+#about-part {
+    margin-top: 100px;
+}
+
+#about-part .about_text {
+    width: 50%;
+    float: left;
+}
+
+#about-part .about_text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+    margin-top: 30px;
+}
+
+#about-part .about_text ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+    margin-left: 30px;
+}
+
+#about-part .about_text ul li {
+    margin-top: 20px;
+}
+
+#about-part .about_text a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #fff;
+    color: #0f2f44;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.3);
+    transition: .4s;
+}
+
+#about-part .about_text a:hover {
+    background: #fcc512;
+}
+
+
+#about-part .about_img {
+    width: 50%;
+    float: left;
+
+}
+
+/*=======================================
+        about part end
+=========================================*/
+
+/*=======================================
+        service part start
+=========================================*/
+#service-part {
+    background: #f5f5f5;
+    padding: 60px 0;
+    margin-top: 100px;
+}
+
+#service-part .title {
+    text-align: center;
+}
+
+#service-part .service {
+    width: 30%;
+    float: left;
+    margin: 0 15px;
+    margin-top: 50px;
+    position: relative;
+}
+
+#service-part .service .main .img {
+    width: 25%;
+    float: left;
+    background: #e9e9e9;
+    text-align: center;
+    padding: 35px 0;
+}
+
+#service-part .service .main .text {
+    width: 75%;
+    float: left;
+    padding: 10px;
+    background: #eeeeee;
+    box-sizing: border-box;
+}
+
+#service-part .service .main .text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0f2f44;
+    margin-bottom: 10px;
+}
+
+#service-part .service .main .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+
+#service-part .service .overlay {
+    width: 0%;
+    height: 100%;
+    background: #0f2f44;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0;
+}
+
+#service-part .service .overlay img {
+    margin-top: 20px;
+}
+
+#service-part .service:hover .overlay {
+    width: 100%;
+    opacity: 1;
+}
+
+/*=======================================
+        service part end
+=========================================*/
+
+/*=======================================
+        portfolio part start
+=========================================*/
+
+#portfolio-part {
+    margin-top: 100px;
+
+}
+
+#portfolio-part .title {
+    text-align: center;
+}
+
+#portfolio-part .port_img {
+    width: 30%;
+    float: left;
+    margin: 0 15px;
+    margin-top: 50px;
+    position: relative;
+}
+
+#portfolio-part .port_img img {
+    width: 100%;
+}
+
+#portfolio-part .port_img .overlay {
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0f2f44;
+    -webkit-box-shadow: 0px 9px 26px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 9px 26px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 9px 26px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+#portfolio-part .port_img:hover .overlay {
+    opacity: 1;
+}
+
+#portfolio-part .button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#portfolio-part .button a {
+    display: inline-block;
+    padding: 15px 20px;
+    background: #fff;
+    -webkit-box-shadow: 0px 9px 26px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 9px 26px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 9px 26px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #0f2f44;
+    transition: .4s;
+}
+
+#portfolio-part .button a:hover{
+    background: #ffc712;
+}
+/*=======================================
+        portfolio part end
+=========================================*/
+
+/*=======================================
+        testimonial part start
+=========================================*/
+#testimonial-part {
+    background: #f5f5f5;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+#testimonial-part .title {
+    text-align: center;
+}
+
+#testimonial-part .testi {
+    width: 47%;
+    float: left;
+    margin: 0 15px;
+    margin-top: 50px;
+    background: #e9e9e9;
+
+}
+
+#testimonial-part .testi .img {
+    width: 35%;
+    float: left;
+}
+
+#testimonial-part .testi .img img {
+    display: block;
+}
+
+#testimonial-part .testi .text {
+    width: 65%;
+    float: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+}
+
+#testimonial-part .testi .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #0f2f44;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+#testimonial-part .testi .text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #0f2f44;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#testimonial-part .testi .text h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #0f2f44;
+    font-weight: 400;
+}
+
+/*=======================================
+        testimonial part end
+=========================================*/
+
+/*=======================================
+        blog part start
+=========================================*/
+#blog-part {
+    margin-top: 100px;
+}
+
+#blog-part .title {
+    text-align: center;
+}
+
+#blog-part .blog {
+    width: 30%;
+    float: left;
+    margin: 0 15px;
+    margin-top: 50px;
+    background: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+#blog-part .blog .img img {
+    width: 100%;
+}
+
+#blog-part .blog .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    margin-top: 20px;
+
+}
+
+#blog-part .blog .text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222;
+
+}
+
+#blog-part .blog .text a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    text-transform: capitalize;
+
+}
+
+#blog-part .blog .text a i {
+    margin-left: 20px;
+}
+
+#blog-part .blog:hover {
+    background: #0f2f44;
+}
+
+#blog-part .blog:hover p {
+    color: #fff;
+}
+
+
+#blog-part .blog:hover h2 {
+    color: #fff;
+}
+
+#blog-part .blog:hover a {
+    color: #fff;
+}
+#blog-part .button{
+    text-align: center;
+}
+#blog-part .button a {
+    display: inline-block;
+    padding: 15px 20px;
+    background: #fff;
+    -webkit-box-shadow: 0px 9px 26px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 9px 26px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 9px 26px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #0f2f44;
+    margin-top: 40px;
+    transition: .4s;
+}
+#blog-part .button a:hover{
+    background: #ffc712;
+}
+/*=======================================
+        blog part end
+=========================================*/
+
+/*=======================================
+        footer part start
+=========================================*/
+footer {
+    background: #f5f5f5;
+    margin-top: 100px;
+    padding: 50px 0;
+}
+
+footer .footer_logo {
+    width: 21%;
+    float: left;
+}
+
+footer .footer_logo p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0f2f44;
+    margin: 20px 0;
+
+}
+
+footer .footer_logo i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0f2f44;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 15px;
+    transition: .4s;
+    cursor: pointer;
+}
+footer .footer_logo i:hover{
+    background: #0f2f44;
+    color: #fff;
+
+}
+footer .contact {
+    width: 23%;
+    float: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+footer h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #0f2f44;
+    font-weight: 400;
+}
+
+footer .contact .box {
+    margin-top: 20px;
+}
+
+footer .contact .box .icon {
+    width: 10%;
+    float: left;
+    font-size: 24px;
+    color: #777777;
+}
+
+footer .contact .box .icon i {
+    margin-top: 7px;
+}
+
+footer .contact .box .text {
+    width: 90%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+
+}
+
+footer .contact .box .text p {
+    width: 110px;
+}
+
+footer .link {
+    width: 12%;
+    float: left;
+}
+
+footer .link ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0f2f44;
+    margin-top: 20px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+footer .link ul li:hover {
+    padding-left: 20px;
+}
+
+footer .photo {
+    width: 39%;
+    float: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+footer .photo img {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/*=======================================
+        footer part end
+=========================================*/
